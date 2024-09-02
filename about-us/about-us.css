@@ -1,0 +1,412 @@
+.banner-area-of-overview {
+    background: url("../assets/images/resource/about-overview-scaled.jpg") no-repeat center center / cover;
+    /* margin-bottom: 200px; */
+    height: 385px;
+    position: relative;
+}
+
+.banner-area-of-overview .banner_text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--pbmit-black-color);
+    padding: 0 15px;
+}
+
+.banner-area-of-overview .banner_text .bandhd {
+    width: 100%;
+    /* text-align: left; */
+    margin-top: 70px;
+    color: var(--pbmit-white-color);
+}
+
+.banner-area-of-overview .banner_text .bandhd h1 {
+    font-size: 44px;
+    color: var(--pbmit-white-color);
+    line-height: 49px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner-area-of-overview .banner_text .bandhd p {
+    margin: 0 !important;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: var(--font-family-Manrope);
+}
+
+.banner-below-area {
+    padding: 90px 0px;
+}
+
+.vision-area {
+    margin-top: 50px;
+}
+
+.banner-below-area {
+    background: #f5f5f5 url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/awards-chart.png) no-repeat left bottom;
+}
+
+
+.abto_intro {
+    padding: 10px 20px 0px 0;
+    max-width: 530px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.abttsmphoto {
+    height: 480px;
+}
+
+.abotestimonil .swiper-slide img {
+    width: 100%;
+    height: 90%;
+
+}
+
+.about-us-slider {
+    height: 400px !important;
+}
+
+.abotestimonil .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+}
+
+.abotestimonil .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -5px;
+}
+
+.abotestimonil span.swiper-pagination-bullet {
+    list-style: none;
+    background: var(--pbmit-grey-color);
+    display: inline-block;
+    width: 23px;
+    height: 5px;
+    border-radius: 2px;
+    margin: 10px 3px;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.abotestimonil span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--pbmit-primary-color);
+    width: 45px;
+}
+
+
+.abto_whitebox {
+    padding: 20px 35px 20px 35px;
+    background: var(--pbmit-white-color);
+}
+
+.abto_whitebox .vision {
+    position: relative;
+}
+
+.abto_whitebox .brw {
+    position: relative;
+    height: 100%;
+}
+
+.abto_whitebox .vision:not(:last-child) .brw::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-right: 1px solid #c4c4c4;
+    width: 1px;
+    /* padding: 15px 0; */
+}
+
+
+.tabview {
+    padding: 80px 0px;
+    /* border-bottom: 1px solid #f3f3f3; */
+    /* margin-bottom: 50px; */
+}
+
+.tabview h2 {
+    font-size: 34px;
+    font-weight: 400;
+    color: #030000;
+    margin: 25px 0;
+    line-height: 39px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--pbmit-primary-color);
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 13px 15px;
+    border-bottom: 1px solid #f3f3f3;
+    color: #030000;
+    background-image: none;
+    text-align: left;
+}
+
+.nav-link:hover {
+    color: #030000;
+}
+
+.tabbarview-inner .tab-content {
+    padding-left: 50px;
+}
+
+.tabbarview-inner .tab-content ul li {
+    margin: 0;
+    padding: 0 10px 10px 20px;
+    color: #414141;
+    font-size: 17px;
+    line-height: 1.42857;
+    position: relative;
+}
+
+.tabbarview-inner .tab-content ul li:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: var(--pbmit-primary-color);
+    left: 0;
+    top: 9px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+
+
+/*! carrer screen design start */
+.breadcrumb {
+    list-style-type: none;
+}
+
+.breadcomb-area {
+    display: flex;
+    align-items: center;
+    /* margin-top: 50px; */
+    margin-bottom: 15px;
+    background-image: url(../assets/images/background/career-banner.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+/* .banner-area .content{
+    position: absolute;
+
+} */
+
+.breadcomb-area h2 {
+    font-size: 44px;
+    color: var(--pbmit-white-color);
+    line-height: 49px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin: 50px 0;
+
+}
+
+.v1 .breadcrumb-level::before,
+.v1 .breadcrumb-level::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background: #3fbc2d;
+    z-index: -1;
+}
+
+.v1 .breadcrumb-level::before {
+    top: 0;
+    transform: skew(20deg);
+}
+
+.v1 .breadcrumb-level::after {
+    bottom: 0;
+    transform: skew(-20deg);
+}
+
+
+.breadcrumb-level {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+.breadcrumb-level:last-child a {
+    cursor: default;
+}
+
+.breadcrumb-level:last-child::before,
+.breadcrumb-level:last-child::after {
+    background: #3fbc2d97;
+}
+
+.breadcrumb-level:not(:last-child):hover::before,
+.breadcrumb-level:not(:last-child):hover::after {
+    background:#3fbc2d97;
+}
+
+.breadcrumb-level a {
+    display: inline-block;
+    position: relative;
+    line-height: 2.5;
+    padding: 0 20px;
+    color: var(--pbmit-white-color) !important;
+    text-decoration: none;
+}
+
+
+
+
+.locatio-tab {
+    padding: 90px 0;
+}
+
+.locatio-tab h2 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #030000;
+    margin: 25px 0;
+    line-height: 39px;
+    font-family: var(--pbmit-body-typography-font-family);
+}
+
+.locatio-tab p a {
+    display: block;
+    color: var(--pbmit-primary-color);
+}
+
+.locatio-tab p a:hover {
+    text-decoration: underline;
+}
+
+.location-tabs-area .nav-pills .nav-link {
+    border-radius: 0;
+    /* background-color: #f5f5f5; */
+    text-transform: uppercase;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px 1px #0002;
+    border-radius: 3px;
+}
+
+.location-tabs-area .box-area {
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.location-tabs-area .boxrw1 {
+    padding: 20px;
+    width: 100%;
+}
+
+.location-tabs-area .hdsec {
+    display: table;
+    width: 100%;
+}
+
+.location-tabs-area .hdsec .hdleft {
+    width: auto;
+    max-width: 720px;
+}
+
+.location-tabs-area .hdsec .hdrght {
+    display: table-cell;
+    width: 95px;
+}
+
+.location-tabs-area .filterDiv h4 {
+    font-family: var(--pbmit-body-typography-font-family);
+    font-weight: 400;
+    color: #313131;
+}
+
+.location-tabs-area .hdsec .hdrght a.applylink {
+    font-weight: 500;
+    padding: 7px 20px;
+    border-radius: 20px;
+    color: var(--pbmit-primary-color);
+    border: 2px solid var(--pbmit-primary-color);
+    text-decoration: none;
+}
+
+.moreless-button {
+    color: var(--pbmit-primary-color);
+}
+
+.box-area:hover {
+    box-shadow: 1px 6px 10px #d0d0d0;
+}
+
+.box-area:hover a.applylink {
+    color: #fff !important;
+    background-color: var(--pbmit-primary-color);
+}
+
+.box-area .boxrw2 {
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.box-area .btsec {
+    display: table;
+    width: 100%;
+    color: #666666;
+}
+
+.box-area .btsec .clm {
+    display: inline-block;
+    padding: 0 30px 10px 35px;
+    vertical-align: top;
+}
+
+.box-area .btsec .clm.department {
+    background: url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/department.png) no-repeat 0 2px;
+}
+
+.box-area .btsec .clm.experience {
+    background: url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/experience.png) no-repeat 0 2px;
+}
+
+.box-area .btsec .clm.vacancy {
+    background: url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/vacancy.png) no-repeat 0 2px;
+}
+
+.box-area .btsec .clm.location {
+    background: url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/location.png) no-repeat 0 2px;
+}
+
+.box-area .btsec .clm b {
+    display: block;
+}
+
+.map-area {
+    padding: 0px 0 0;
+}
+
+.map-area iframe {
+    height: 700px;
+}

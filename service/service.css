@@ -1,0 +1,405 @@
+.service-banner-area img{
+    object-fit: cover;
+    width: 100%;
+    /* margin-top: 20px; */
+
+}
+.light-greenbg {
+    background: var(--pbmit-primary-light-color);
+    padding: 80px 0 80px;
+}
+.sectionttl {
+    font-size: 30px;
+}
+.sectiondesc p.smalldesc {
+    font-size: 18px;
+    line-height: 22px;
+}
+.abt-info-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.abt-info-blk {
+    position: relative;
+    width: 31%;
+    margin-bottom: 50px;
+}
+.abtinfoicon {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+.abt-info-txt {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #231944;
+    background: var(--pbmit-white-color);
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 12px;
+    margin: 0 auto 50px;
+    justify-content: center;
+}
+.submit-button.healnowbut {
+    padding: 10px 16px;
+}
+.why-choose-cta .showSingle {
+    border: 1px solid var(--pbmit-primary-light-color);
+}
+.why-choose-cta {
+    margin: 30px 0 0;
+}
+.sec-read-more{
+    display: none;
+}
+.submit-button, input.submit-button {
+    background: var(--pbmit-primary-light-color);
+    text-align: center;
+    color: var(--pbmit-white-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px 0 0;
+    border: 0;
+    cursor: pointer;
+    transition: .2s ease all;
+    margin-bottom: 30px;
+}
+.readmorebut {
+    font-size: 16px;
+    line-height: 1;
+    color: var(--pbmit-white-color);
+    background: var(--pbmit-primary-color);
+    padding: 6px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.typeofpiles {
+    background: #179607;
+    padding: 0px 0 0px;
+}
+.typeofpiles img, .cause-of-piles img, .journey-section img{
+    width: 100%;
+}
+.cause-of-piles {
+    background-color: var(--pbmit-white-color);
+    padding: 60px 0 90px;
+}
+.journey-section{
+    background: #017943;
+    padding: 0px 0 0px;
+}
+/*! when to see doctor styling start */
+section.when-to-see-doctor {
+    padding: 60px 0;
+}
+.dflex-space-btw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ortho-whwn-to-see-doc .symptomsimg {
+    width: 11%;
+}
+.symptomsimg {
+    margin: 1.5%;
+}
+.symptomsimg img {
+    width: 70%;
+    margin: 0 auto;
+}
+.symptomsimg figcaption {
+    color: #231944;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--pbmit-body-typography-font-family);
+    line-height: 1.2;
+}
+.causesreadinfo {
+    margin-top: 30px;
+}
+.sec-read-more-causes {
+    display: none;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+/*! when to see doctor styling end */
+
+.hernia-whatinfo-sec {
+    background: #017943;
+    padding: 60px 0 ;
+}
+.hernia-whatinfo-sec .sectionttl {
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--pbmit-white-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 20px 0;
+}
+.sectiondesc p {
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--pbmit-white-colorX);
+    margin: 0 0 20px 0;
+}
+.hernia-whatinfo-sec .sectiondesc p.smalldesc {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--pbmit-white-color);
+}
+.hod-list-white li {
+    padding-left: 40px;
+}
+
+.starlist li {
+    color: #fff;
+}
+
+.service-list li {
+    position: relative;
+    color: var(--pbmit-white-color);
+    font-size: 18px;
+    line-height: 1.3;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.hernia-whatinfo-sec .hod-list-white li:before {
+    background-size: 60%;
+    top: 0;
+}
+
+.hod-list-white li:before {
+    content: '';
+    /* background: url("../assets/images/icons/blog-list-icon-white.png") no-repeat center; */
+    background-size: 90%;
+    width: 30px;
+    height: 30px;
+    color: #00b570;
+    font-size: 10px;
+    position: absolute;
+    left: -10px;
+}
+
+.serviceinfoblk{
+    padding: 60px 0;
+}
+.serviceinfoblk .sec-title_heading{
+    font-size: 30px;
+}
+.dflex-space-btw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.advantageslist {
+    padding: 30px;
+    color: var(--pbmit-white-color);
+    font-size: 20px;
+    color: var(--pbmit-white-color);
+    text-align: left;
+    border-radius: 15px;
+    width: 40%;
+}
+.advamtageswrap .purplebg {
+    background: #1f0f58;
+}
+
+.advantageslistpile {
+    width: 30%;
+}
+.advlistttl {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.advantageslist li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.rightcheckmark li i {
+    content: "";
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.advamtageswrap .bluebg {
+    background: #00b56f;
+}
+.wrongcheckmark li i {
+    content: '';
+    color: #d82929;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.light-greenebg{
+    background-color: var(--pbmit-primary-light-color);
+}
+
+.symptomsimg {
+    width: 13%;
+    margin: 1.5%;
+}
+
+.care-info-circle {
+    /* font-family: 'Barlow-Regular'; */
+    color: var(--pbmit-white-color);
+    font-size: 20px;
+    background: var(--pbmit-primary-color);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    line-height: 1.2;
+    border: 6px solid var(--pbmit-white-color);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    position: relative;
+}
+/* .care-info-circle:before {
+    background: url(../assets/images/icons/carebg-icon.png) no-repeat center;
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.2;
+    background-size: 60%;
+} */
+.care-info-circle:nth-child(1) {
+    margin-left: 5%;
+}
+
+.houseofdoctor {
+    background-color: var(--pbmit-primary-light-color);
+}
+.houseofdoctor .dflex-space-btw{
+    justify-content: center;
+}
+.faq-section{
+padding: 80px 0px;
+}
+
+
+.accordion-flush>.accordion-item:first-child {
+    border-top: 1px solid #c1c1c1;
+}
+.accordion-flush>.accordion-item:last-child{
+    border-bottom: 1px solid #c1c1c1;
+
+}
+
+.accordion-flush>.accordion-item {
+    border-left:  1px solid #c1c1c1;
+    border-right:  1px solid #c1c1c1;
+    border-top:  1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 10px;
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--pbmit-primary-color);
+    color: var(--pbmit-white-color);
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+button.accordion-button {
+    position: relative;
+    padding: 14px 20px;
+    display: block;
+    cursor: pointer;
+    /* font-family: NexaBold; */
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 10px 10px 0 0;
+    color: var(--pbmit-white-color);
+}
+button.accordion-button{
+    color:var(--pbmit-black-color) ;
+}
+.accordion-button::after {
+    position: absolute;
+    content: "+";
+    top: 0;
+    right: 10px;
+    z-index: 9;
+    font-size: 24px;
+    line-height: 24px;
+    /* font-family: NexaBold; */
+    padding: 10px 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: var(--pbmit-white-color);
+    background-image: none;
+}
+.accordion-button:not(.collapsed)::after  {
+    content: "-";
+    color: #fff;
+    background-image: none;
+    transform:none;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius:8px;
+    background-color: var(--pbmit-primary-color);
+    color: var(--pbmit-white-color);
+}
+#flush-collapseThree ul {
+    padding: 10px 20px 10px 30px;
+}
+.servicesec2wrap .service-list li {
+    position: relative;
+    color: var(--pbmit-white-color);
+    font-size: 18px;
+    line-height: 1.3;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.servicesec2wrap .service-list li:before {
+    position: absolute;
+    content: "";
+    /* background: url("../assets/images/icons/blog-list-icon-white.png") no-repeat 0 0; */
+    width: 20px;
+    height: 22px;
+    border-radius: 0;
+    background-size: 100%;
+    top: 2px;
+    left: 0;
+}
+.servicesec2wrap .service-list.blueiconlist li:before {
+    background: url("../assets/images/icons/blog-list-icon.png") no-repeat 0 0;
+    background-size: 100%;
+}

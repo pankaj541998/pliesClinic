@@ -1,0 +1,32 @@
+.critical-station .tabview {
+    padding-top: 0;
+}
+.specialitiespg li.anesthesiology a {
+    background: url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/Anesthesiology.png) no-repeat 15px 10px;
+}
+.critical-station .tabbarview-inner .tab-content {
+    padding-left: 0px;
+}
+.tab-content a{
+    color: var(--pbmit-black-color);
+}
+
+.is-layout-flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.specialitiespg .tab-content .specialitytxt img {
+    border-radius: 5px;
+}
+
+ol li {
+    font-size: 18px;
+    color: var(--pbmit-primary-color);
+    font-weight: 500;
+}
+
+ol li p {
+    font-size: 16px;
+    color: #000;
+}
