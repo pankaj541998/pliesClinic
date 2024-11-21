@@ -150,6 +150,7 @@ section.card {
 
 
 
+
   /* awards gallery screen deisgn starts */
   .gallery {
     margin: auto;
@@ -279,6 +280,7 @@ section.card {
     .gallery-item {
         flex: 1 1 100%;
     }
+    
 }
 
   /* awards gallery screen deisgn ends */
