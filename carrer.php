@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php include('../header/header-link.php');?>
+    <?php include('./header/header-link.php');?>
 </head>
 <body>
 <div class="main_area carrer">
-    <?php include('../header/header.php');?>
-    <?php include('../popup/popup.php');?>
+    <?php include('./header/header.php');?>
+    <?php include('./popup/popup.php');?>
     <section class="breadcomb-area">
         <div class="container">
             <h2>Careers</h2>
         </div>
     </section>
 
-    <section class="banner-below-area">
+    <!-- <section class="banner-below-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- location area start -->
      <section class="locatio-tab">
@@ -86,7 +86,7 @@
                             </div>
                             <div class="jobcontent moretext" style="display: none;"> 
                                 <p><strong>Qualification:</strong> MD – Geriatrician</p>
-                                <p><strong>Location</strong>: Kauvery Hospital, Trichy</p>
+                                <p><strong>Location</strong>: Arogyam Healing Touch, Bhandup</p>
                                 <p><strong>Contact:</strong> <strong>+91 94433 71337</strong></p>
                             </div>
                             <a class="moreless-button" href="javascript:void(0);" id="rm">Read more</a>
@@ -96,7 +96,7 @@
                                 <div class="clm department">Department: <b>Geriatrician</b> </div>
                                 <div class="clm experience">Experience: <b>0 - 2 years</b> </div>
                                 <div class="clm vacancy">Vacancy: <b>1</b> </div>
-                                <div class="clm location">Locations: <b>Trchiy, Tamil Nadu, India.</b> </div>
+                                <div class="clm location">Locations: <b>Bhandup</b> </div>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                             </div>
                             <div class="jobcontent moretext" style="display: none;"> 
                                 <p><strong>Qualification:</strong> MD – Geriatrician</p>
-                                <p><strong>Location</strong>: Kauvery Hospital, Trichy</p>
+                                <p><strong>Location</strong>: Arogyam Healing Touch, Mulund</p>
                                 <p><strong>Contact:</strong> <strong>+91 94433 71337</strong></p>
                             </div>
                             <a class="moreless-button" href="javascript:void(0);" id="rm">Read more</a>
@@ -127,7 +127,7 @@
                                 <div class="clm department">Department: <b>Geriatrician</b> </div>
                                 <div class="clm experience">Experience: <b>0 - 2 years</b> </div>
                                 <div class="clm vacancy">Vacancy: <b>1</b> </div>
-                                <div class="clm location">Locations: <b>Trchiy, Tamil Nadu, India.</b> </div>
+                                <div class="clm location">Locations: <b>Mulund</b> </div>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                             </div>
                             <div class="jobcontent moretext" style="display: none;"> 
                                 <p><strong>Qualification:</strong> MD – Geriatrician</p>
-                                <p><strong>Location</strong>: Kauvery Hospital, Trichy</p>
+                                <p><strong>Location</strong>: Arogyam Healing Touch, Vikhroli</p>
                                 <p><strong>Contact:</strong> <strong>+91 94433 71337</strong></p>
                             </div>
                             <a class="moreless-button" href="javascript:void(0);" id="rm">Read more</a>
@@ -158,7 +158,7 @@
                                 <div class="clm department">Department: <b>Geriatrician</b> </div>
                                 <div class="clm experience">Experience: <b>0 - 2 years</b> </div>
                                 <div class="clm vacancy">Vacancy: <b>1</b> </div>
-                                <div class="clm location">Locations: <b>Trchiy, Tamil Nadu, India.</b> </div>
+                                <div class="clm location">Locations: <b>Vikhroli</b> </div>
                             </div>
                         </div>
                     </div>
@@ -171,14 +171,14 @@
     <!-- location area end -->
 
     <!-- google map section start -->
-     <section class="map-area">
+     <!----<section class="map-area">
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1185048764364!2d72.92635191490227!3d19.146289287047647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA4JzQ2LjYiTiA3MsKwNTUnNDIuOCJF!5e0!3m2!1sen!2sin!4v1608896934421!5m2!1sen!2sin" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-     </section>
+     </section>--->
     <!-- google map section end -->
 
-    <?php include('../footer/footer.php');?>
+    <?php include('./footer/footer.php');?>
 </div>
-<?php include('../footer/footer-link.php');?>
+<?php include('./footer/footer-link.php');?>
     
 </body>
 </html>

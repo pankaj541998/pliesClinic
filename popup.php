@@ -15,37 +15,36 @@
         <p>Please fill up the below details, our executive will call you in
           shortly.</p>
         <!-- validation forms start here -->
-        <form class="needs-validation" novalidate>
+        <form action="thankyou.php"  method="post" novalidate="novalidate" class="needs-validation">
           <div class="mb-3">
             <label for="validationCustom01" class="form-label">Your Name <span class="required-icons" >*</span></label>
-            <input type="text" class="form-control" id="validationCustom01" required>
+            <input type="text" class="form-control" id="validationCustom01" required name="fname">
             <div class="valid-feedback">Looks good!</div>
           </div>
 
           <div class="mb-3">
             <label for="validationCustom02" class="form-label">Your Email <span class="required-icons" >*</span></label>
-            <input type="email" class="form-control" id="validationCustom02" required>
+            <input type="email" class="form-control" id="validationCustom02" required name="email">
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="mb-3">
-            <label for="validationCustom02" class="form-label">Your Number <span class="required-icons" >*</span></label>
-            <input type="number" class="form-control" id="validationCustom02"required>
+            <label for="validationCustom03" class="form-label">Your Number <span class="required-icons" >*</span></label>
+            <input type="number" class="form-control" id="validationCustom03"required name="phone_number">
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="mb-3">
-            <label for="validationCustom02" class="form-label">Book Date <span class="required-icons" >*</span></label>
-            <input type="datetime-local" class="form-control" id="validationCustom02" required>
+            <label for="validationCustom04" class="form-label">Book Date <span class="required-icons" >*</span></label>
+            <input type="datetime-local" class="form-control" id="validationCustom04" required name="datetimesd">
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="mb-3">
             <label class="form-label">Message</label>
-            <!-- <input type="text" class="form-control" id="validationCustom02"value="Otto" required> -->
             <textarea placeholder="" class="form-control" name="message"></textarea>
           </div>
 

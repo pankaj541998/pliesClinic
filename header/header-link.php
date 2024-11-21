@@ -4,6 +4,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous"
 >
+
 <link
     rel="stylesheet"
     id="et-builder-googlefonts-css"
@@ -11,6 +12,9 @@
     type="text/css"
     media="all"
 >
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="../style/style.css">
-<link rel="stylesheet" href="../style/responsive.css">
+
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./style/responsive.css">

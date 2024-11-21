@@ -1,12 +1,15 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800;900&family=Rubik:wght@400;500;600;800;900&family=Allison&display=swap");
 @import url("../header/header-style.css");
 @import url("../footer/footer-style.css");
-@import url("../home/home.css");
-@import url("../service/service.css");
-@import url("../about-us/about-us.css");
-@import url("../contact-us/contact.css");
-@import url("../station-screen/critical.css");
-@import url("../popup/popup-style.css");
-@import url("../award/award.css");
+@import url("./home.css");
+@import url("./service.css");
+@import url("./about-us.css");
+@import url("./contact.css");
+@import url("./critical.css");
+@import url("./popup-style.css");
+@import url("./award.css");
 
 :root {
     --pbmit-primary-color: #3fbc2d;
@@ -22,7 +25,8 @@
     --pbmit-link-color-hover: #3368c6;
     --pbmit-primary-color-rgb: 51, 104, 198;
 
-    --pbmit-body-typography-font-family: 'Roboto', sans-serif;
+    /* --pbmit-body-typography-font-family: 'Roboto', sans-serif; */
+    --pbmit-body-typography-font-family: "Noto Serif", serif;
     --pbmit-body-typography-variant: regular;
     --pbmit-body-typography-font-size: 16px;
     --pbmit-body-typography-line-height: 1.5;
@@ -65,7 +69,7 @@ li,
 
 .swiper {
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .swiper-slide {
@@ -75,6 +79,9 @@ li,
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.menu_icon{
+    display: none;
 }
 
 

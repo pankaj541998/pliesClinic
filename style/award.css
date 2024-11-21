@@ -80,31 +80,28 @@ section.card {
     max-width: calc(920px + 248px);
     min-width: calc(640px + 248px);
   }
-  @media all and (max-width: 1100px) {
-    body {
-      padding: 96px 48px 24px;
-    }
+  @media (max-width: 1100px) {
     article {
       width: 100%;
       max-width: 100%;
-      min-width: 100%;
+      /* min-width: 100%; */
     }
     section.card {
       width: 100%;
       max-width: 100%;
-      min-width: 100%;
+      /* min-width: 100%; */
     }
     section.card .text-content {
       width: 100%;
     }
     section.card:nth-of-type(odd) {
-      margin: 0;
+      margin: 0px;
     }
   }
   @media all and (max-width: 720px) {
-    body {
+    /* body {
       padding: 48px 24px 0;
-    }
+    } */
     section.card {
       margin: 64px 0;
       padding: 88px 36px 36px;

@@ -1,5 +1,408 @@
 @media (max-width: 1630px) {
-    .swiper{
-        height: auto;
-    }
+  .swiper {
+    height: auto;
   }
+
+  .about-two_image img {
+    width: 120%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .about-two_text {
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1210px) {
+  #et-top-navigation nav li {
+    padding-right: 0;
+  }
+
+  section.card {
+    width: 65vw;
+  }
+
+  section.card:nth-of-type(odd) {
+    margin: 0 0 0 198px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .appnt {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .specialist-tabs .tab-btns .tab-btn {
+    padding: 10px;
+    margin: 0px 4px;
+  }
+
+  .home .style-two .row.clearfix {
+    flex-direction: column-reverse;
+
+  }
+
+  section.card {
+    width: 80vw;
+  }
+
+  .right-logo-area {
+    /* display: none; */
+    position: absolute;
+    left: -200%;
+    transition: 0.5s ease-in-out;
+    height: 100vh;
+    width: 80%;
+    top: 0;
+  }
+
+  .menu_icon {
+    display: block;
+    font-size: 30px;
+    color: var(--pbmit-primary-color);
+  }
+
+  .row .three {
+    padding: 0px 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .hamburger .line {
+    width: 50px;
+    height: 5px;
+    background-color: var(--pbmit-primary-color);
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  /* ONE */
+
+  #hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  #hamburger-1.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(13px) rotate(45deg);
+    -ms-transform: translateY(13px) rotate(45deg);
+    -o-transform: translateY(13px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
+  }
+
+  #hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
+  }
+
+  .right-logo-area.active {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 5px 7px 5px #0001;
+    transition: 0.5s ease-in-out;
+    padding: 20px;
+  }
+
+  ul.nav.justify-content-center {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  ul.nav.justify-content-center li.menu-item {
+    margin-bottom: 20px;
+  }
+
+  .mega-box {
+    position: inherit;
+    opacity: inherit;
+    visibility: inherit;
+    width: auto;
+    margin-left: 40px;
+    height: 0;
+    visibility: hidden;
+  }
+
+  .mega-box .content {
+    width: auto;
+  }
+
+  .mega-box.active-mega-menu {
+    height: auto;
+    visibility: visible !important;
+  }
+
+  .nav li:hover .mega-box {
+    visibility: hidden;
+    transition: inherit !important;
+  }
+
+  .sec-title_two_heading {
+    font-size: 38px;
+  }
+
+  .facilities h1,
+  .video-testimonials-main h1 {
+    font-size: 28px;
+  }
+
+  .sec-title_heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .call-to-action .call-to-action {
+    max-width: 100% !important;
+    padding: 0;
+  }
+
+  .call-to-action .call-to-action-inner .call-to-action-left .call-to-action-content .call-to-action-title {
+    font-size: 28px;
+  }
+
+  #top-header a,
+  #top-header a i {
+    font-size: 12px;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about-two_video {
+    display: none;
+  }
+
+  .about-two_image {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .about-two_image img {
+    width: 100%;
+  }
+
+  .left-logo-area a {
+    height: 80px;
+  }
+
+  .hamburger .line {
+    width: 40px;
+    height: 4px;
+    margin: 5px auto;
+  }
+
+  .logo_container,
+  .left-logo-area {
+    height: auto;
+  }
+
+  .banner-area .social-link,
+  .quickbox {
+    display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  #top-header {
+    display: none;
+  }
+
+  .overview .banner-below-area .row {
+    flex-direction: column-reverse;
+  }
+
+  .overview .banner-below-area .vision-area .row {
+    flex-direction: inherit;
+  }
+
+  .abto_whitebox .vision:not(:last-child) .brw::before {
+    top: inherit;
+    right: inherit;
+    left: inherit;
+    bottom: 0;
+    border-bottom: 1px solid #c4c4c4;
+    width: 100%;
+  }
+
+  .abtourvalues {
+    flex-direction: column;
+  }
+
+  .tabbarview-inner .tab-content {
+    padding: 0;
+  }
+
+  div#v-pills-tab {
+    overflow-x: scroll;
+    margin-bottom: 30px;
+  }
+
+  .nav_tabs {
+    display: flex;
+    width: 190%;
+  }
+
+  .main-footer_column {
+    margin-left: 0;
+  }
+
+  #hamburger-1.is-active .line:nth-child(1) {
+    transform: translateY(6px) rotate(42deg);
+  }
+
+  #hamburger-1.is-active .line:nth-child(3) {
+    transform: translateY(-13px) rotate(-46deg);
+  }
+
+  .abt-info-blk {
+    width: 90%;
+  }
+
+  .readmorebut {
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+  .ortho-whwn-to-see-doc .symptomsimg {
+    width: 50%;
+    margin: auto;
+  }
+
+  .advantageslistpile {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .serviceinfoblk .sec-title_heading {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .light-greenbg {
+    padding-top: 50px;
+  }
+
+  .call-to-action .call-to-action-inner {
+    flex-direction: column;
+    padding: 30px 12px;
+  }
+
+  .call-to-action-left img {
+    width: 40px;
+  }
+
+  .call-to-action .call-to-action-inner .call-to-action-left .call-to-action-content {
+    margin-left: 10px;
+  }
+
+  .call-to-action .call-to-action-inner .call-to-action-left .call-to-action-content .call-to-action-title {
+    font-size: 20px;
+  }
+
+  .call-to-action .call-to-action-inner .call-to-action-left {
+    margin-bottom: 20px;
+  }
+
+  .symptomsimg {
+    width: 45%;
+  }
+
+  .critical_tabs {
+    display: flex;
+    width: 138%;
+  }
+
+  .location-tabs-area .nav-pills .nav-link {
+    min-width: 106px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .contact_tab {
+    display: flex;
+  }
+
+  .google-testimonials-section {
+    padding: 80px 0px;
+  }
+
+  .testimonials-one__content {
+    padding: 20px 20px 0;
+  }
+
+  .video-testimonials-main .swiper {
+    padding: 0px 0px 50px 0px;
+  }
+
+  .mySwiperNew .swiper-button-next,
+  .mySwiperNew .swiper-button-prev {
+    top: 95%;
+  }
+
+  .mySwiperNew .swiper-button-next {
+    left: 60%;
+  }
+
+  .mySwiperNew .swiper-button-prev {
+    left: 40%;
+  }
+
+  .mySwiperNew .swiper-button-next:after,
+  .mySwiperNew .swiper-button-prev:after {
+    font-size: 30px;
+  }
+
+  section.facilities.deskshow .card {
+    min-height: inherit;
+    height: auto;
+  }
+
+  section.facilities.deskshow .card-body {
+    position: initial;
+  }
+
+  section.facilities.deskshow .second-row {
+    flex-direction: column-reverse;
+  }
+
+  .specialist-tabs .tab-btns {
+    width: 200%;
+  }
+
+  .medical_tabs {
+    overflow: scroll;
+  }
+  section.facilities.deskshow .card-body img{
+    float: left;
+    margin-right: 10px;
+  }
+
+  .specialist-one_color-one,.specialist-one_color-two,.specialist-one_icon, .specialist-one_image-two {
+    display: none;
+}
+.specialist-one_image{
+  padding-bottom: 20px;
+}
+.specialist-one_image img{
+  width: 100%;
+}
+
+}

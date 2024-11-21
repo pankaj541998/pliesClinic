@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php include('../header/header-link.php');?>
+    <?php include('./header/header-link.php');?>
 </head>
 <body>
 <div class="main_area critical-station">
-    <?php include('../header/header.php');?>
-    <?php include('../popup/popup.php');?>
+    <?php include('./header/header.php');?>
+    <?php include('./popup/popup.php');?>
     <section class="breadcomb-area">
         <div class="container">
             <h2>Critical Care</h2>
@@ -25,12 +25,14 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-home-Anes" data-bs-toggle="pill" data-bs-target="#v-pills-Anes" type="button" role="tab" aria-controls="v-pills-Anes" aria-selected="true">Piles</button>
-                                <button class="nav-link" id="v-pills-profile-CC" data-bs-toggle="pill" data-bs-target="#v-pills-CC" type="button" role="tab" aria-controls="v-pills-CC" aria-selected="false">Fissure</button>
-                                <button class="nav-link" id="v-pills-messages-DM" data-bs-toggle="pill" data-bs-target="#v-pills-DM" type="button" role="tab" aria-controls="v-pills-DM" aria-selected="false">Fistula</button>
-                                <button class="nav-link" id="v-pills-settings-Derma" data-bs-toggle="pill" data-bs-target="#v-pills-Derma" type="button" role="tab" aria-controls="v-pills-Derma" aria-selected="false">Hernia</button>
-                                <button class="nav-link" id="v-pills-settings-Ophta" data-bs-toggle="pill" data-bs-target="#v-pills-Ophta" type="button" role="tab" aria-controls="v-pills-Ophta" aria-selected="false">Vericose Veins</button>
-                                <button class="nav-link" id="v-pills-settings-Endo" data-bs-toggle="pill" data-bs-target="#v-pills-Endo" type="button" role="tab" aria-controls="v-pills-Endo" aria-selected="false">Grastology</button>
+                                <div class="critical_tabs">
+                                    <button class="nav-link active" id="v-pills-home-Anes" data-bs-toggle="pill" data-bs-target="#v-pills-Anes" type="button" role="tab" aria-controls="v-pills-Anes" aria-selected="true">Piles</button>
+                                    <button class="nav-link" id="v-pills-profile-CC" data-bs-toggle="pill" data-bs-target="#v-pills-CC" type="button" role="tab" aria-controls="v-pills-CC" aria-selected="false">Sheet Metal Component</button>
+                                    <button class="nav-link" id="v-pills-messages-DM" data-bs-toggle="pill" data-bs-target="#v-pills-DM" type="button" role="tab" aria-controls="v-pills-DM" aria-selected="false">Fistula</button>
+                                    <button class="nav-link" id="v-pills-settings-Derma" data-bs-toggle="pill" data-bs-target="#v-pills-Derma" type="button" role="tab" aria-controls="v-pills-Derma" aria-selected="false">Hernia</button>
+                                    <button class="nav-link" id="v-pills-settings-Ophta" data-bs-toggle="pill" data-bs-target="#v-pills-Ophta" type="button" role="tab" aria-controls="v-pills-Ophta" aria-selected="false">Vericose Veins</button>
+                                    <button class="nav-link" id="v-pills-settings-Endo" data-bs-toggle="pill" data-bs-target="#v-pills-Endo" type="button" role="tab" aria-controls="v-pills-Endo" aria-selected="false">Grastology</button>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-9">
@@ -40,7 +42,7 @@
                                         <div class="specialitytxt">
                                             <Strong>Best doctor for piles in Bhandup</Strong>
                                             <p>Aryogyam Healing Touch  is one of the most trustworthy hospitals in Bhandup. It uses modern and upgraded technology for the treatment of Piles. Many skilled and well-qualified doctors and specialists are working in this hospital for a long time. They have good experience in the treatment of severe problems of piles. You will get the best treatment from the Specialist Doctor for Piles in Bhandup. </p>
-                                            <figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="843" height="300" class="wp-image-3749" src="https://www.pilesclinicmumbai.in/images/piless.png" alt="Anesthesiology" sizes="(max-width: 843px) 100vw, 843px"></figure>
+                                            <figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="843" height="300" class="wp-image-3749" src="./assets/images/piless.png" alt="Anesthesiology" sizes="(max-width: 843px) 100vw, 843px"></figure>
                                             <Strong>What are Piles?</Strong>
                                             <p>Piles are also known as Hemorrhoids. They are caused when inflamed tissues gather in the anal canal. Tissues and veins become swollen in case of piles. This disease can happen inside or outside the anus.</p>
                                             <Strong>How are Piles caused?</Strong>
@@ -220,10 +222,10 @@
         </div>
     </section>
     <!-- tab area end  -->
-    <?php include('../footer/footer.php');?>
+    <?php include('./footer/footer.php');?>
 
 </div>
-<?php include('../footer/footer-link.php');?>
+<?php include('./footer/footer-link.php');?>
     
 </body>
 </html>

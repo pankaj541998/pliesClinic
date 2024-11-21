@@ -4,15 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <?php include('../header/header-link.php');?>
+        <?php include('./header/header-link.php');?>
     </head>
     <body>
         <div class="main_area">
-            <?php include('../header/header.php');?>
-            <?php include('../popup/popup.php');?>
+            <?php include('./header/header.php');?>
+            <?php include('./popup/popup.php');?>
 
              <section class="service-banner-area">
-                 <img src="../assets/images/resource/banner/1.png" alt="" srcset="">
+                 <img src="./assets/images/resource/banner/1.png" alt="" srcset="">
             </section>
 
             <section class="piles light-greenbg">
@@ -23,34 +23,28 @@
                         <p class="smalldesc">For those seeking relief from hemorrhoids, especially in urban centers like Mumbai, there are advanced treatment options available. Laser piles treatment in Mumbai has emerged as a popular and effective solution. The best hospital for piles treatment in Mumbai can provide comprehensive care and advanced procedures for managing this condition. When considering laser treatment or any other medical intervention for piles, it's essential to consult with the best piles doctor in Mumbai to ensure personalized and effective care. Choosing the right medical facility and specialist can significantly impact the success of treatment and the overall well-being of the patient.</p>
                         <div class="abt-info-wrap">
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt">They may affect 75% of the population by age 50</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt">Common in pregnancy</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt">They can be internal or external.</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt">Presenting symptoms may be bleeding after passing stool or bloody stool</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt">Sometimes blood can clot surrounding anus causing external hemorrhoids.</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt">Caused due to chronic constipation, difficult bowel movements.</div>
                             </div>
                         </div>
                         <div class="sec-read-more">
                             <p class="smalldesc">Adhering to the fact that people are majorly unaware of the causes and symptoms of piles and get confused among anal complaints like fissure, piles, fistula and other rectal problems, a correct examination and diagnosis have become the necessity. Although piles are not cancerous, nor are they dangerous, they are still capable enough to hinder your daily routine and traditional work life.</p>
                             <p class="smalldesc">However, most patients suffer wordlessly because of the embarrassment and timidity to explain to the doctor. Such piles patients incessantly bear the pain and don't complain until the condition becomes unendurable. But because piles are swollen and enlarged blood vessels in or around the anus and continue to show their repercussions, in the end, surgery remains the only answer to the matter.</p>
-                            <p class="smalldesc">Thus, the best piles doctor in Mumbai from the 'House of Doctors' come forward to bestow piles laser treatment in Mumbai, putting an end to this long time insufferable ailment.</p>
+                            <p class="smalldesc">Thus, the best piles doctor in Mumbai from the 'Arogyam Healing Touch' come forward to bestow piles laser treatment in Mumbai, putting an end to this long time insufferable ailment.</p>
                             <div class="why-choose-cta text-center">
                                 <div class="showSingle submit-button healnowbut" target="2">HEAL NOW</div>
                             </div>
@@ -62,34 +56,27 @@
                         <p class="smalldesc">Symptoms of piles, also known as hemorrhoids, can vary depending on the severity of the condition. Common signs include:</p>
                         <div class="abt-info-wrap">
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">BLEEDING</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">PROLAPSE</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">PRURITIS</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">SOILING OF CLOTHES</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">ANAL PAIN</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">ANAL INCONTINENCE</div>
                             </div>
                             <div class="abt-info-blk">
-                                <!-- <img src="../assets/images/icons/abt-info-icon.png" class="img-fluid abtinfoicon"> -->
                                 <div class="abt-info-txt whitebg">LUMPS AT ANAL REGION</div>
                             </div>
-                            <p class="smalldesc">If you experience any of these symptoms, it's essential to seek evaluation and treatment from a qualified piles doctor in Mumbai. A piles clinic in Mumbai can provide specialized care and diagnostic procedures to accurately assess the condition. For those seeking the best piles treatment in India, Mumbai House Of Doctors offers state-of-the-art medical facilities and experienced specialists who can provide effective management options tailored to individual needs. Early intervention and proper management can help alleviate symptoms and prevent complications associated with piles.</p>
+                            <p class="smalldesc">If you experience any of these symptoms, it's essential to seek evaluation and treatment from a qualified piles doctor in Mumbai. A piles clinic in Mumbai can provide specialized care and diagnostic procedures to accurately assess the condition. For those seeking the best piles treatment in India, Mumbai Arogyam Healing Touch offers state-of-the-art medical facilities and experienced specialists who can provide effective management options tailored to individual needs. Early intervention and proper management can help alleviate symptoms and prevent complications associated with piles.</p>
                         </div>
                     </div>
                 </div>
@@ -97,14 +84,14 @@
             <!-- types of piles section start -->
             <section class="typeofpiles">
                 <div class="container">
-                    <img src="../assets/images/resource/types-of-piles.jpg" alt="" srcset="">
+                    <img src="./assets/images/resource/types-of-piles.jpg" alt="" srcset="">
                 </div>
             </section>
             <!-- types of piles section end -->
             <!-- casuse of piles section start -->
             <section class="cause-of-piles">
                 <div class="container">
-                    <img src="../assets/images/resource/cause-of-piles.jpg" alt="" srcset="">
+                    <img src="./assets/images/resource/cause-of-piles.jpg" alt="" srcset="">
                 </div>
             </section>
             <!-- casuse of piles section end -->
@@ -113,44 +100,44 @@
                 <div class="container">
                     <center class="sec-title">
                         <h2 class="sec-title_heading">WHEN TO SEE A DOCTOR?</h2>
-                        <div class="sec-title_title">Don't allow embarrassment to hinder you from seeking assistance. Proctology conditions are frequently encountered issues that we are adept at addressing. If you believe you are experiencing any of the symptoms listed below, contact House Of Doctors for assistance:</div>
+                        <div class="sec-title_title">Don't allow embarrassment to hinder you from seeking assistance. Proctology conditions are frequently encountered issues that we are adept at addressing. If you believe you are experiencing any of the symptoms listed below, contact Arogyam Healing Touch for assistance:</div>
                     </center>
                     <div class="service-details dflex-space-btw text-center ortho-whwn-to-see-doc">
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/when-see1.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/when-see1.png" alt="" class="img-fluid">
                                 <figcaption>Painful lump around the anus</figcaption>
                             </figure>
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/when-see2.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/when-see2.png" alt="" class="img-fluid">
                                 <figcaption>A feeling of full bowels even after passing stool</figcaption>
                             </figure>
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/when-see3.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/when-see3.png" alt="" class="img-fluid">
                                 <figcaption>Bright red blood flow after bowel movements</figcaption>
                             </figure>
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/when-see4.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/when-see4.png" alt="" class="img-fluid">
                                 <figcaption>Itchy, red, and sore anus</figcaption>
                             </figure>
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/when-see5.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/when-see5.png" alt="" class="img-fluid">
                                 <figcaption>Pain during the passing of stool</figcaption>
                             </figure>
                         </div>
-                        <p class="smalldesc">Our experienced piles specialist in Mumbai is dedicated to providing compassionate and effective care for individuals dealing with hemorrhoids or any other proctology-related issues. At House Of Doctors, we understand the sensitivity of these conditions and strive to create a comfortable and supportive environment for our patients. Don't hesitate to reach out for expert evaluation and treatment options tailored to your needs. Your well-being is our priority.</p>
+                        <p class="smalldesc">Our experienced piles specialist in Mumbai is dedicated to providing compassionate and effective care for individuals dealing with hemorrhoids or any other proctology-related issues. At Arogyam Healing Touch, we understand the sensitivity of these conditions and strive to create a comfortable and supportive environment for our patients. Don't hesitate to reach out for expert evaluation and treatment options tailored to your needs. Your well-being is our priority.</p>
                     </div>
                     <div class="causesreadinfo">
                         <div class="sec-read-more sec-read-more-causes">
-                            <p class="smalldesc">It is necessary to remember that while rectal bleeding may be caused due to haemorrhoids, it can also occur due to some life-threatening conditions such as ulcers, diverticulitis, inflammatory bowel disease, and tumors. Hence if rectal bleeding occurs, it is a must to contact the 'House Of Doctors’ for Best Piles Treatment In Mumbai, especially if the person is on blood-thinning medication.</p>
+                            <p class="smalldesc">It is necessary to remember that while rectal bleeding may be caused due to haemorrhoids, it can also occur due to some life-threatening conditions such as ulcers, diverticulitis, inflammatory bowel disease, and tumors. Hence if rectal bleeding occurs, it is a must to contact the 'Arogyam Healing Touch’ for Best Piles Treatment In Mumbai, especially if the person is on blood-thinning medication.</p>
                             <p class="smalldesc">Adhering to the fact that internal piles become inflamed and therefore causes swelling, it is not the only reason leading to pain. Passing a hard stool can too scrape off the thinned lining causing pain and bleeding. However, swollen haemorrhoids can also cause spasm of the muscles that surround the rectum and anus causing pain, especially if they protrude or prolapse through the anus.</p>
                             <p class="smalldesc">External haemorrhoids behave differently since they are covered by regular skin and have pain fibres associated with them. When an underlying vein within the haemorrhoid clots off, it causes intense pain due to the constant stretching of the skin covering the haemorrhoid. It can also result in excess skin tags that can be felt at the anal verge and can cause difficulties with cleaning after a bowel movement, leading to secondary skin infections.</p>
                             <p class="smalldesc">In the later phase, these inflamed haemorrhoids leak mucus that can cause inflammation of the skin surrounding the anus striking burning and itching sensation. There are other causes of these peculiarities that include yeast and other skin infections and parasites like pinworms. Nevertheless, just as blood in the stool should not be ignored because it might be a sign of colon cancer, anal itching or bleeding should not be presumed because it could lead to anal cancer or tumor.</p>
@@ -168,13 +155,13 @@
             <section class="servicesec2wrap hernia-whatinfo-sec">
                 <div class="container flex-between">
                     <div class="servicesec2 sectiondesc">
-                        <h2 class="sectionttl txt-white">Why Choose House Of Doctors As The Best Piles Hospital In Mumbai</h2>
+                        <h2 class="sectionttl txt-white">Why Choose Arogyam Healing Touch As The Best Piles Hospital In Mumbai</h2>
                         <ul class="service-list starlist hod-list-white">
-                            <p class="smalldesc txt-white">When considering options for piles treatment in Mumbai, House Of Doctors stands out as the premier choice for several reasons.</p>
+                            <p class="smalldesc txt-white">When considering options for piles treatment in Mumbai, Arogyam Healing Touch stands out as the premier choice for several reasons.</p>
                             <ul class="service-list starlist hod-list-white">
                                 <li>
                                     <b>Expertise of the Best Doctor for Piles in Mumbai:-</b>
-                                    At House Of Doctors, we have a team of highly skilled and experienced doctors specializing in proctology, including the treatment of piles. Our specialists are renowned for their expertise in diagnosing and managing piles effectively.
+                                    At Arogyam Healing Touch, we have a team of highly skilled and experienced doctors specializing in proctology, including the treatment of piles. Our specialists are renowned for their expertise in diagnosing and managing piles effectively.
                                 </li>
                                 <li>
                                     <b>Advanced Technology and Piles Laser Treatment in Mumbai:-</b>
@@ -182,7 +169,7 @@
                                 </li>
                                 <li>
                                     <b>Comprehensive Care:-</b>
-                                    As a dedicated piles hospital in Mumbai, House Of Doctors offers comprehensive care for individuals dealing with hemorrhoids and other proctology conditions. From initial evaluation and diagnosis to personalized treatment plans and follow-up care, we ensure that our patients receive the highest standard of care throughout their journey.
+                                    As a dedicated piles hospital in Mumbai, Arogyam Healing Touch offers comprehensive care for individuals dealing with hemorrhoids and other proctology conditions. From initial evaluation and diagnosis to personalized treatment plans and follow-up care, we ensure that our patients receive the highest standard of care throughout their journey.
                                 </li>
                                 <li>
                                     <b>Patient-Centric Approach:-</b>
@@ -190,10 +177,10 @@
                                 </li>
                                 <li>
                                     <b>Positive Reputation:-</b>
-                                    With a reputation for excellence in proctology care, House Of Doctors is widely recognized as one of the best piles hospitals in Mumbai. Our commitment to clinical excellence, combined with our patient-focused approach, has earned us the trust and confidence of countless individuals seeking relief from piles and related conditions.
+                                    With a reputation for excellence in proctology care, Arogyam Healing Touch is widely recognized as one of the best piles hospitals in Mumbai. Our commitment to clinical excellence, combined with our patient-focused approach, has earned us the trust and confidence of countless individuals seeking relief from piles and related conditions.
                                 </li>
                             </ul>
-                            <p class="smalldesc txt-white">If you're looking for the best piles hospital in Mumbai with the best doctor for piles, look no further than House Of Doctors. We are dedicated to helping our patients achieve optimal health and well-being through personalized, compassionate care.</p>
+                            <p class="smalldesc txt-white">If you're looking for the best piles hospital in Mumbai with the best doctor for piles, look no further than Arogyam Healing Touch. We are dedicated to helping our patients achieve optimal health and well-being through personalized, compassionate care.</p>
                         </ul>
                     </div>
                     <div class="servicesec2 sectiondesc">
@@ -211,7 +198,7 @@
                 <div class="container">
                     <center class="sec-title">
                         <h2 class="sec-title_heading">BENEFITS OF LASER, MIPH SURGERY OVER CONVENTIONAL SURGERY?</h2>
-                        <!-- <div class="sec-title_title">Don't allow embarrassment to hinder you from seeking assistance. Proctology conditions are frequently encountered issues that we are adept at addressing. If you believe you are experiencing any of the symptoms listed below, contact House Of Doctors for assistance:</div> -->
+                        <!-- <div class="sec-title_title">Don't allow embarrassment to hinder you from seeking assistance. Proctology conditions are frequently encountered issues that we are adept at addressing. If you believe you are experiencing any of the symptoms listed below, contact Arogyam Healing Touch for assistance:</div> -->
                     </center>
                     <div class="advamtageswrap service-details dflex-space-btw text-center">
                         <div class="advantageslist bluebg rightcheckmark advantageslistpile">
@@ -332,25 +319,25 @@
             <!-- best doctor section end -->
             <section class="journey-section">
                 <div class="container">
-                    <img src="../assets/images/resource/journey.jpg" alt="" srcset="">
+                    <img src="./assets/images/resource/journey.jpg" alt="" srcset="">
                 </div>
             </section>
             <!-- why choose doctors house section start  -->
             <section class="serviceinfoblk common-padding">
                 <div class="container">
                     <div class="sectiondesc text-center">
-                        <h2 class="sectionttl">Why choose House Of Doctors?</h2>
+                        <h2 class="sectionttl">Why choose Arogyam Healing Touch?</h2>
                     </div>
                     <div class="service-details dflex-space-btw text-center">
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/surgeries-through-latest-techniques.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/surgeries-through-latest-techniques.png" alt="" class="img-fluid">
                                 <figcaption>Latest Technologies</figcaption>
                             </figure>
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/award-winning-team.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/award-winning-team.png" alt="" class="img-fluid">
                                 <figcaption>Award Winning
                                     <br>Surgeon
                                 </figcaption>
@@ -358,7 +345,7 @@
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/state-of-art-infrastructure.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/state-of-art-infrastructure.png" alt="" class="img-fluid">
                                 <figcaption>State of Art
                                     <br>Infrastructure
                                 </figcaption>
@@ -366,7 +353,7 @@
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/hasslefree-cashless.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/hasslefree-cashless.png" alt="" class="img-fluid">
                                 <figcaption>Hasslefree Cashless
                                     <br>Mediclaim
                                 </figcaption>
@@ -374,7 +361,7 @@
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/pickup.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/pickup.png" alt="" class="img-fluid">
                                 <figcaption>Free Cab
                                     <br>
                                     Pick Up and Drop
@@ -383,7 +370,7 @@
                         </div>
                         <div class="symptomsimg">
                             <figure>
-                                <img src="../assets/images/icons/no-cost.png" alt="" class="img-fluid">
+                                <img src="./assets/images/icons/no-cost.png" alt="" class="img-fluid">
                                 <figcaption>No Cost EMI
                                     <br>Available
                                 </figcaption>
@@ -397,7 +384,7 @@
             <section class="serviceinfoblk common-padding light-purplebg houseofdoctor">
                 <div class="container">
                     <div class="sectiondesc text-center">
-                        <h2 class="sectionttl">HOUSE OF DOCTORS: WHERE WE CARE FOR YOU</h2>
+                        <h2 class="sectionttl">Arogyam Healing Touch: WHERE WE CARE FOR YOU</h2>
                     </div>
                     <div class="service-details dflex-space-btw text-center carecirclewrap1">
                         <div class="care-info-circle">Reputed, Experienced &amp; Highly Trained Medical Team</div>
@@ -469,7 +456,7 @@
                                         <li>Avoid straining for motions</li>
                                         <li>Exercise regularly </li>
                                     </ul>
-                                    <p class="smalldesc">Nevertheless, if you are suffering from piles and the question about the best piles treatment near me arises, then the ‘House Of Doctors’ is your destination. </p>
+                                    <p class="smalldesc">Nevertheless, if you are suffering from piles and the question about the best piles treatment near me arises, then the ‘Arogyam Healing Touch’ is your destination. </p>
                                 </div>
                             </div>
                         </div>
@@ -505,7 +492,7 @@
             </section>
             <!-- faq section end -->
         </div>
-        <?php include('../footer/footer.php');?>
-        <?php include('../footer/footer-link.php');?>
+        <?php include('./footer/footer.php');?>
+        <?php include('./footer/footer-link.php');?>
     </body>
 </html>

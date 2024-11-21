@@ -23,55 +23,76 @@
             </div>
         </div>
     </div>
+
     <div class="middle-header main-hedear">
         <div class="logo_container container">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="left-logo-area">
-                    <a href="../home/index.php">
-                        <img src="../assets/images/logo/logo.png" alt="Chirayu Healthcare Polyclinic &amp; Diagnostics" id="logo">
+                    <a href="./">
+                        <img src="./assets/images/logo/logo.png" alt="Chirayu Healthcare Polyclinic &amp; Diagnostics" id="logo">
                     </a>
+                </div>
+                <div class="menu_icon">
+                    <div class="cf">
+                        <div class="three col">
+                            <div class="hamburger" id="hamburger-1">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="right-logo-area">
                     <div id="et-top-navigation">
                         <nav>
                             <ul class="nav justify-content-center">
                                 <li class="menu-item">
-                                    <a href="../home/index.php" aria-current="page">Home</a>
+                                    <a href="./" aria-current="page">Home</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35">
-                                    <a href="#">About Us <i class="fas fa-angle-down"></i></a>
+                                    <a>About Us <i class="fas fa-angle-down"></i></a>
                                     <div class="mega-box">
                                         <div class="content">
                                             <ul class="mega-links">
-                                                <li><a href="../about-us/carrer.php" id="about1">Carrer</a></li>
-                                                <li><a href="../about-us/overview.php" id="about3">Overview</a></li>
+                                                <li><a href="./carrer.php" id="about1">Carrer</a></li>
+                                                <li><a href="./overview.php" id="about3">Overview</a></li>
                                             </ul>
                                         </div>
                                     </div>
 
                                 </li>
-                                <li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-442">
-                                    <a href="../service/piles.php">Services</a>
-                                </li>
-                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
-                                    <a href="../station-screen/critical.php">Speciality</a>
-                                </li>
-                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
-                                    <a href="../award/award.php">Awards</a>
-                                </li>
-                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
-                                    <a href="#">Gallery <i class="fas fa-angle-down"></i></a>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35">
+                                    <a >Services <i class="fas fa-angle-down"></i></a>
                                     <div class="mega-box">
                                         <div class="content">
                                             <ul class="mega-links">
-                                                <li><a href="../about-us/carrer.php" id="about1">Images</a></li>
-                                                <li><a href="../about-us/overview.php" id="about3">Videos</a></li>
+                                                <li><a href="./piles.php" id="about1">Piles</a></li>
+                                                <li><a href="./fissure-laser-treatment-in-mumbai.php" id="about3">Fissure</a></li>
+                                                <li><a href="./fistula.php" id="about3">Fistula</a></li>
+                                                <li><a href="./hernia.php" id="about3">Hernia</a></li>
+                                                <li><a href="./vericose-veins.php" id="about3">Vericose Veins</a></li>
+                                                
+                                            </ul>
+                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
+                                    <a href="./critical.php">Speciality</a>
+                                </li>
+                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
+                                    <a href="./award.php">Awards</a>
+                                </li>
+                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
+                                    <a>Gallery <i class="fas fa-angle-down"></i></a>
+                                    <div class="mega-box">
+                                        <div class="content">
+                                            <ul class="mega-links">
+                                                <li><a href="./carrer.php" id="about1">Images</a></li>
+                                                <li><a href="./overview.php" id="about3">Videos</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
-                                    <a href="../contact-us/contact.php">Contact Us</a>
+                                    <a href="./contact.php">Contact Us</a>
                                 </li>
                                 <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
                                     <a class="appointment" data-bs-toggle="modal" data-bs-target="#myModal">Appointment</a>
@@ -91,52 +112,39 @@
         X
     </div>
    <h2>Book an Appointment</h2>
-    <!-- <form action="thankyou.php" method="POST" class="form-contact">
-        <p><input type="text" placeholder="Enter Name *" name="fname" required=""></p>
-        <p> <input type="email" placeholder="Enter Email ID *" name="email" required=""></p><p>
-        <input type="number" placeholder="Enter Phone No *" name="phone_number" required=""></p>
-        <p> 
-        </p><p>
-        <input type="datetime-local" placeholder="Book date" class="form-control" name="datetimesd" required=""></p>
-        <p>
-        <textarea placeholder="Enter Your Requirement *" name="message"></textarea></p>
-        
-        <input type="submit" value="SUBMIT">
-    </form> -->
     <p>Please fill up the below details, our executive will call you in
           shortly.</p>
         <!-- validation forms start here -->
-        <form class="needs-validation" novalidate>
+        <form action="thankyou.php"  method="post" novalidate="novalidate" class="needs-validation">
           <div class="mb-3">
             <label for="validationCustom01" class="form-label">Your Name <span class="required-icons" >*</span></label>
-            <input type="text" class="form-control" id="validationCustom01" required>
+            <input type="text" class="form-control" id="validationCustom01" required name="fname">
             <div class="valid-feedback">Looks good!</div>
           </div>
 
           <div class="mb-3">
-            <label for="validationCustom02" class="form-label">Your Email <span class="required-icons" >*</span></label>
-            <input type="email" class="form-control" id="validationCustom02" required>
+            <label for="validationCustom07" class="form-label">Your Email <span class="required-icons" >*</span></label>
+            <input type="email" class="form-control" id="validationCustom07" required name="email">
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="mb-3">
-            <label for="validationCustom02" class="form-label">Your Number <span class="required-icons" >*</span></label>
-            <input type="number" class="form-control" id="validationCustom02"required>
+            <label for="validationCustom05" class="form-label">Your Number <span class="required-icons" >*</span></label>
+            <input type="number" class="form-control" id="validationCustom05"required name="phone_number">
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="mb-3">
-            <label for="validationCustom02" class="form-label">Book Date <span class="required-icons" >*</span></label>
-            <input type="datetime-local" class="form-control" id="validationCustom02" required>
+            <label for="validationCustom06" class="form-label">Book Date <span class="required-icons" >*</span></label>
+            <input type="datetime-local" class="form-control" id="validationCustom06" required name="datetimesd">
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="mb-3">
             <label class="form-label">Message</label>
-            <!-- <input type="text" class="form-control" id="validationCustom02"value="Otto" required> -->
             <textarea placeholder="" class="form-control" name="message"></textarea>
           </div>
 

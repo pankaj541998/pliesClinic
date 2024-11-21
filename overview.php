@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <?php include('../header/header-link.php');?>
+        <?php include('./header/header-link.php');?>
     </head>
     <body>
         <div class="main_area overview">
-            <?php include('../header/header.php');?>
-            <?php include('../popup/popup.php');?>
+            <?php include('./header/header.php');?>
+            <?php include('./popup/popup.php');?>
             <section class="breadcomb-area">
                 <div class="container">
                     <h2>Overview</h2>
@@ -18,28 +18,28 @@
             <section class="banner-below-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-6">
                             <div class="abto_intro">
-                                <p>Kauvery hospital launched its first hospital more than two decades ago, the founders of Kauvery Hospital have been determined on creating world class healthcare facilities that shall be affordable. The founding doctors set off on this dream in 1999 with a 30-bed hospital in Trichy, with single-minded focus on offering ‘best-in-class healthcare, with a personal touch.’ This was a very new concept in a tier 2 city like Trichy which lacked a tertiary care hospital at the time. Today, Kauvery is a multi-specialty hospital chain with 2250+ beds in six locations including Trichy, Chennai, Salem, Hosur, Tirunelveli and Bengaluru. With twelve hospitals and a workforce of over 8000+ Kauvery’s mission is to provide exemplary secondary and tertiary care.</p>
+                                <p>Dr. Jiten Chowdhry is a highly esteemed surgeon known for his exceptional expertise and dedication to patient care. With over 25 years of experience, he has established himself as a leading authority in general, laparoscopic, gastrointestinal, and piles surgery in Mumbai. Dr. Chowdhry's commitment to continuous learning and skill enhancement, evident through his advanced training and multiple fellowships, underscores his dedication to providing the best possible care for his patients. Dr. Jiten Chowdhry is a General Surgeon, Laparoscopic Surgeon and GastroIntestinal Surgeon & Piles Surgeon in Vikhroli, Bhandup & Mulund, Mumbai and has an experience of 25 years in these fields. Dr. Jiten Chowdhry is a visiting consultant at Godrej Memorial Hospital Vikhroli East, and Apollo Spectra Chembur East, He is also Owner & Director at Ruby Hospital - A Venture of Arogyam Hospital in Bhandup West, & Sigma Hospital Mulund west. He completed MS - General Surgery from Institute of Medical Sciences, Banaras Hindu University (IMS-BHU) in 1998,He updated his skills at Tata Memorial Hospital, KEM Hospital and SION Hospital during separate phases of time.During this time he acquired various fellowships ; FAIS ,FMAS,FICS(USA),FISCP. He is a member of Association of Surgeons of India (ASI), Association of Minimal Access Surgeons of India (AMASI), Association of Colorectal Surgeons of India, Association of International College of Surgeons and Association of Medical Consultants. Presently he is Vice President of the "International Society of Coloproctology".</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 associates abotestimonil">
+                        <div class="col-md-6 associates abotestimonil">
                             <div class="swiper about-us-slider">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="../assets/images/slider/patient-story-slider1.jpg"> 
+                                        <img src="./assets/images/slider/patient-story-slider1.jpg"> 
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="../assets/images/slider/patient-story-slider1.jpg"> 
+                                        <img src="./assets/images/slider/patient-story-slider1.jpg"> 
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="../assets/images/slider/patient-story-slider1.jpg"> 
+                                        <img src="./assets/images/slider/patient-story-slider1.jpg"> 
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="../assets/images/slider/patient-story-slider1.jpg"> 
+                                        <img src="./assets/images/slider/patient-story-slider1.jpg"> 
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="../assets/images/slider/patient-story-slider1.jpg"> 
+                                        <img src="./assets/images/slider/patient-story-slider1.jpg"> 
                                     </div>
                                 </div>
                                 <div class="swiper-pagination"></div>
@@ -96,12 +96,14 @@
                         <h2>Our Values</h2>
                         <div class="d-flex align-items-start abtourvalues">
                             <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-home-CI" data-bs-toggle="pill" data-bs-target="#v-pills-CI" type="button" role="tab" aria-controls="v-pills-CI" aria-selected="true">Continual Improvement</button>
-                                <button class="nav-link" id="v-pills-profile-HPT" data-bs-toggle="pill" data-bs-target="#v-pills-HPT" type="button" role="tab" aria-controls="v-pills-HPT" aria-selected="false">Heartfelt Personal Touch</button>
-                                <button class="nav-link" id="v-pills-messages-E" data-bs-toggle="pill" data-bs-target="#v-pills-E" type="button" role="tab" aria-controls="v-pills-E" aria-selected="false">Ethical</button>
-                                <button class="nav-link" id="v-pills-settings-EC" data-bs-toggle="pill" data-bs-target="#v-pills-EC" type="button" role="tab" aria-controls="v-pills-EC" aria-selected="false">Empathetic Care</button>
-                                <button class="nav-link" id="v-pills-settings-RA" data-bs-toggle="pill" data-bs-target="#v-pills-RA" type="button" role="tab" aria-controls="v-pills-RA" aria-selected="false">Real Accountability</button>
-                                <button class="nav-link" id="v-pills-settings-SE" data-bs-toggle="pill" data-bs-target="#v-pills-SE" type="button" role="tab" aria-controls="v-pills-SE" aria-selected="false">Service Excellence</button>
+                                <div class="nav_tabs">
+                                    <button class="nav-link active" id="v-pills-home-CI" data-bs-toggle="pill" data-bs-target="#v-pills-CI" type="button" role="tab" aria-controls="v-pills-CI" aria-selected="true">Continual Improvement</button>
+                                    <button class="nav-link" id="v-pills-profile-HPT" data-bs-toggle="pill" data-bs-target="#v-pills-HPT" type="button" role="tab" aria-controls="v-pills-HPT" aria-selected="false">Heartfelt Personal Touch</button>
+                                    <button class="nav-link" id="v-pills-messages-E" data-bs-toggle="pill" data-bs-target="#v-pills-E" type="button" role="tab" aria-controls="v-pills-E" aria-selected="false">Ethical</button>
+                                    <button class="nav-link" id="v-pills-settings-EC" data-bs-toggle="pill" data-bs-target="#v-pills-EC" type="button" role="tab" aria-controls="v-pills-EC" aria-selected="false">Empathetic Care</button>
+                                    <button class="nav-link" id="v-pills-settings-RA" data-bs-toggle="pill" data-bs-target="#v-pills-RA" type="button" role="tab" aria-controls="v-pills-RA" aria-selected="false">Real Accountability</button>
+                                    <button class="nav-link" id="v-pills-settings-SE" data-bs-toggle="pill" data-bs-target="#v-pills-SE" type="button" role="tab" aria-controls="v-pills-SE" aria-selected="false">Service Excellence</button>
+                                </div>
                             </div>
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="v-pills-CI" role="tabpanel" aria-labelledby="v-pills-CI-tab">
@@ -173,8 +175,8 @@
                     </div>
                 </div>
             </section>
-            <?php include('../footer/footer.php');?>
+            <?php include('./footer/footer.php');?>
         </div>
-        <?php include('../footer/footer-link.php');?>
+        <?php include('./footer/footer-link.php');?>
     </body>
 </html>

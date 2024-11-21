@@ -18,7 +18,7 @@
 
 #top-header a,
 #top-header a i {
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: 1px;
     color: var(--pbmit-white-color);
     text-decoration: none;
@@ -47,7 +47,7 @@
     background-color: var(--pbmit-white-color);
     width: 100%;
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 99;
 }
@@ -101,6 +101,8 @@
     font-weight: 400;
     display: block;
     color: var(--pbmit-black-color);
+    font-family: "Noto Sans",sans-serif;
+    font-size: 16px;
 }
 
 #et-top-navigation nav li:hover > a {

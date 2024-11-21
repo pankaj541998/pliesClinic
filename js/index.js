@@ -10,19 +10,26 @@ var swiper = new Swiper(".google-testimoals-slider", {
   lazy: true,
   parallax: true,
   spaceBetween: 30,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    },
     480: {
       slidesPerView: 1,
       spaceBetween: 30
     },
-    768: {
-      slidesPerView: 2,
+    990: {
+      slidesPerView: 1,
       spaceBetween: 30
     },
     // when window width is >= 480px
@@ -62,6 +69,34 @@ var swiper = new Swiper(".mySwiperNew", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    // when window width is >= 320px
+    360: {
+      slidesPerView: 1,
+      coverflowEffect: {
+        depth: 100,
+        modifier: 0,
+        scale: 0,
+      },
+    },
+    480: {
+      slidesPerView: 1,
+      coverflowEffect: {
+        depth: 100,
+        modifier: 0,
+        scale: 0,
+      },
+    },
+    990: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    // when window width is >= 480px
+
+  }
   // loop: true,
 });
 
@@ -92,17 +127,7 @@ var swiper = new Swiper(".about-us-slider", {
   pagination: {
     el: '.swiper-pagination',
   },
-});
-
-// var header = $(".main-hedear");
-// $(window).scroll(function () {
-//   var scroll = $(window).scrollTop();
-//   if (scroll >= 110 && $(this).width() > 769) {
-//     header.addClass("navbar-fixed-top");
-//   } else {
-//     header.removeClass('navbar-fixed-top');
-//   }
-// });	  
+});  
 
 const header = document.querySelector(".main-hedear");
 const toggleClass = "navbar-fixed-top";
@@ -130,24 +155,23 @@ $(document).ready(function () {
 //! awards script start
 const images = [
   {
-      src: 'https://www.pilesclinicmumbai.in/images/awards/2-1.jpg',                                                                                                                                                                                                          
+      src: './assets/images/awards/2-1.jpg',                                                                                                                                                                                                          
   },
   {
-      src: 'https://www.pilesclinicmumbai.in/images/awards/4-1.jpg',
+      src: './assets/images/awards/4-1.jpg',
   },
   {
-      src: 'https://www.pilesclinicmumbai.in/images/awards/6-1.jpg',
+      src: './assets/images/awards/6-1.jpg',
   },
   {
-      src: 'https://www.pilesclinicmumbai.in/images/awards/3-1.jpg',
+      src: './assets/images/awards/3-1.jpg',
   },
   {
-      src: 'https://www.pilesclinicmumbai.in/images/awards/5-1.jpg',
+      src: './assets/images/awards/5-1.jpg',
   },
   {
-      src: 'https://www.pilesclinicmumbai.in/images/awards/1-2.jpg',
+      src: './assets/images/awards/1-2.jpg',
   },
-  // Voeg hier meer afbeeldingen en beschrijvingen toe als nodig
 ];
 let currentIndex = 0;
 
@@ -161,19 +185,20 @@ function openModal(index) {
 function closeModal() {
   document.getElementById('modal').style.display = 'none';
 }
-
-// function prevImage() {
-//     currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
-//     updateModal();
-// }
-
-// function nextImage() {
-//     currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
-//     updateModal();
-// }
-
 function updateModal() {
   document.getElementById('modal-img').src = images[currentIndex].src;
-  // document.getElementById('modal-text').innerText = images[currentIndex].text;
 }
 //! awards script end
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    $(".right-logo-area").toggleClass('active');
+  });
+
+  $("li.menu-item a").click(function() {
+        $(".mega-box").not($(this).siblings('.mega-box')).removeClass("active-mega-menu");
+    $(this).siblings('.mega-box').toggleClass("active-mega-menu");
+});
+});
+

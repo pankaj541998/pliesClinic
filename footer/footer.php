@@ -12,66 +12,25 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <div class="call-to-action">
-		<div class="container">
-			<div class="call-to-action-inner">
-				<div class="call-to-action-left">
-					<div class="call-to-action-icon">
-						<span class="webexflaticon base-icon-chat1"></span>
-					</div>
-					<div class="call-to-action-content">
-						<p class="call-to-action-sub-title">why stand in long ?</p>
-						<h3 class="call-to-action-title">
-                            Queques Book An Appointment
-							<!-- Need Any Home Remodeling Help? -->
-						</h3>
-					</div>
-				</div>
-				<div class="call-to-action-btn-box mrt-md-30">
-					<a href="../contact-us/contact.php" class="animate-btn-style4">book an appointment</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-<section class="newsletter-oness">
-    <!-- <div class="newsletter-one">
-        <div class="container">
-            <div class="newsletter-one_inner-container" style="background-image:url(../assets/images/background/pattern-7.png)">
-                <div class="newsletter-one_icon">
-                    <img src="../assets/images/icons/envelope.png" alt="">
-                </div>
-                <div class="row clearfix">
-                    <div class="newsletter-one_title-column col-lg-6 col-md-12 col-sm-12">
-                        <h3 class="newsletter-one_title">Latest update
-                            <br> subscribe to our newsletter
-                        </h3>
-                    </div>
-                    <div class="newsletter-one_form-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="subscribe-form">
-                            <form method="post" action="contact.html">
-                                <div class="form-group">
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        value=""
-                                        placeholder="Your Email Address"
-                                        required=""
-                                    >
-                                    <button type="submit" class="theme-btn fa-solid fa-paper-plane fa-fw"></button>
-                                </div>
-                            </form> 
-                        </div>
-                    </div>
+    <div class="container call-to-action">
+        <div class="call-to-action-inner">
+            <div class="call-to-action-left">
+                <img src="./assets/images/icons/bubble-chat.png" alt="" srcset="">
+                <div class="call-to-action-content">
+                    <!-- <p class="call-to-action-sub-title">why stand in long ?</p> -->
+                    <h3 class="call-to-action-title">
+                        Why stand in long Queques ?
+                    </h3>
                 </div>
             </div>
+            <div class="call-to-action-btn-box mrt-md-30">
+                <a href="./contact.php" class="animate-btn-style4">book an appointment</a>
+            </div>
         </div>
-    </div> -->
+    </div>
+</div>
 
-   
-</section>
-
-
-<div class="main-footer" style="background-image: url(../assets/images/background/pattern-8.png)">
+<div class="main-footer" style="background-image: url(./assets/images/background/pattern-8.png)">
     <div class="container">
         <div class="main-footer_widgets">
             <div class="row clearfix">
@@ -82,53 +41,53 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="main-footer_column col-lg-7 col-md-6 col-sm-12">
                             <div class="footer-widget logo-widget">
                                 <div class="main-footer_logo">
-                                    <a href="index.html">
-                                        <!-- <img src="../assets/images/footer-logo.png" alt=""> -->
-                                         <h2>Arogyam</h2>
-                                         <h3> Healing Touch</h3>
+                                    <a href="./" class="logo-in-name">
+                                        <img src="./assets/images/logo/footer-logo.png" alt="">
+                                         <!-- <h2>Arogyam</h2>
+                                         <h3> Arogyam Healing Touch</h3> -->
                                         </a>
                                 </div>
-                                <div class="main-footer_text">It helps designers plan out where the content will sit, the content to be written and approved.</div>
+                                <div class="main-footer_text">Dr. Jiten Chowdhry specialises in Laser surgery for Piles, Fissure, FIistula, Pilonidal Sinus and Varicose Veins. He also specialises in diseases of the Gastric System & Hernia Surgery.He at present is holding the portfolio of Vice President of” INTERNATIONAL SOCIETY OF PROCTOLOGY”.</div>
                                 <!-- Social Box -->
                                 <ul class="footer-social_box">
                                     <li>
-                                        <a href="https://www.twitter.com/" class="fa-brands fa-twitter fa-fw"></a>
+                                        <a href="https://www.facebook.com/aryogyamhealingtouch/" class="fa-brands fa-facebook fa-fw"></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/" class="fa-brands fa-facebook-f fa-fw"></a>
+                                        <a href="https://www.instagram.com/arogyamhealingtouch/" class="fa-brands fa-instagram fa-fw"></a>
                                     </li>
+                                   
                                     <li>
-                                        <a href="https://dribbble.com/" class="fa-brands fa-dribbble fa-fw"></a>
+                                        <a href="https://www.linkedin.com/in/dr-jiten-chowdhry-568a87240" class="fa-brands fa-linkedin fa-fw"></a>
                                     </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" class="fa-brands fa-linkedin fa-fw"></a>
+                                    
+                                     <li>
+                                        <a href="https://www.youtube.com/@drjitenchowdhry2544" class="fa-brands fa-youtube fa-fw"></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <!--Footer Column-->
-                        <div class="main-footer_column col-lg-5 col-md-6 col-sm-12">
+                        <div class="main-footer_column col-lg-4 offset-1 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
                                 <h4 class="main-footer_title">Service</h4>
                                 <ul class="main-footer_list">
                                     <li>
-                                        <a href="#">Emergency</a>
+                                        <a href="./piles.php">Piles</a>
                                     </li>
                                     <li>
-                                        <a href="#">Psychotherapy</a>
+                                        <a href="./fissure-laser-treatment-in-mumbai.php">Fissure</a>
                                     </li>
                                     <li>
-                                        <a href="#">Hourly Care</a>
+                                        <a href="./fistula.php">Fistula</a>
                                     </li>
                                     <li>
-                                        <a href="#">Respite Home</a>
+                                        <a href="./hernia.php">Hernia</a>
                                     </li>
                                     <li>
-                                        <a href="#">Advanced Care</a>
+                                        <a href="./vericose-veins.php">Varicose Veins</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Laboratory</a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -138,34 +97,32 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="big-column col-lg-6 col-md-12 col-sm-12">
                     <div class="row clearfix">
                         <!--Footer Column-->
-                        <div class="main-footer_column col-lg-6 col-md-6 col-sm-12">
+                        <div class="main-footer_column col-lg-6 col-md-12 col-sm-12">
                             <div class="footer-widget contact-widget">
                                 <h4 class="main-footer_title">Contact Info</h4>
                                 <ul class="main-footer_contact-list">
                                     <li>
-                                        <span class="icon fa-solid fa-phone fa-fw"></span>
-                                        80 Broklyn Golden Street, New York. USA
+                                        <span class="icon fa-solid fa-location fa-fw"></span>
+                                        1st Floor, Arunodaya Tower, Jangal Mangal Rd, Kokan Nagar, Bhandup West, Mumbai, Maharashtra 400078
                                     </li>
                                     <li>
                                         <span class="icon fa-solid fa-envelope fa-fw"></span>
-                                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                        <a href="mailto:chowdhryjiten@gmail.com">chowdhryjiten@gmail.com</a>
                                     </li>
-                                    <li>
-                                        <span class="icon fa-solid fa-clock fa-fw"></span>
-                                        Mon - Sat 8:00 - 6:30,
-                                        <br>
-                                        Sunday - CLOSED
+                                     <li>
+                                        <span class="icon fa-solid fa-phone fa-fw"></span>
+                                        +91 70219 47836
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <!--Footer Column-->
-                        <div class="main-footer_column col-lg-6 col-md-6 col-sm-12">
+                        <div class="main-footer_column col-lg-6 col-md-12 col-sm-12">
                             <div class="footer-widget news-widget">
                             <iframe
                                 style="border: 0;"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.959687882084!2d80.2545611750776!3d13.03823798728331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52662d4607a8d3%3A0x7feb3895300b7126!2sKauvery%20Hospital%20Chennai!5e0!3m2!1sen!2sin!4v1709882684782!5m2!1sen!2sin"
-                                width="400"
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.464251991245!2d72.92814838377042!3d19.145633617978163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9d8266669ab%3A0xf35d8f7545edf58!2sDr.%20Jiten%20Chowdhry!5e0!3m2!1sen!2sin!4v1726052081556!5m2!1sen!2sin"
+                                width="100%"
                                 height="300"
                                 allowfullscreen="allowfullscreen"
                             ></iframe>

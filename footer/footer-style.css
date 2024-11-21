@@ -283,6 +283,10 @@ form .form-group input[type="email"] {
     background: linear-gradient(90deg, rgba(0, 146, 79, 1) 0%, rgba(100, 198, 53, 1) 100%);
     overflow: hidden;
 }
+.call-to-action-left img{
+    width: 60px;
+    filter: invert(1);
+}
 .call-to-action .call-to-action-inner .call-to-action-left {
     position: relative;
     display: flex;
@@ -389,3 +393,8 @@ form .form-group input[type="email"] {
 	}
 }
 /*! call to action section end here */
+
+.logo-in-name img{
+    width: 300px;
+
+}
